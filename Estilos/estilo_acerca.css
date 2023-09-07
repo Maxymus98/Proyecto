@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+.img{
+    width: 10%;
+}
+
+/*..................... Estilos de acerca de................ */
+body {
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to top, lightgray, rgba(0, 0, 0, 0.178));
+  }
+
+  .slide {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .slide h1 {
+    font-size: 30px;
+  }
+
+  .slide h2 {
+    font-size: 24px;
+    color: #666;
+  }
+
+  .slide img {
+    max-width: 80%;
+    margin: 20px 0;
+  }
+
+
+/*........breadcump.........*/
+
+.pag{
+    margin-left: 4%;
+    margin-top: 2%;
+
+ }
+
+
+/*......................................PIE DE PÁGINA...........................................*/
+
+    /*iconos de redes sociales*/
+    footer{
+        display: flexbox;
+        justify-content: space-between;
+    }
+    
+    .redes{ /*ul*/
+        background-color: lightgray;
+        margin-left: 1150PX;
+        margin-top:-1%;
+        justify-content: space-between;
+    }
+    
+    ul li{
+        margin: 5px;
+    }
+    
+    .imgredes{
+        text-align: center;
+        padding: 0%;
+        margin-right: -15px;
+        margin-top: 1%;
+    }
+    
+    .margin{
+        margin: 10px;
+    }
+    
+        /*Basada en inteligencia artificial*/
+    
+    
+    .h2p{
+        text-align: center;
+        margin-right: -1%;
+        font-size: 20px;
+    }
+    
+        /*Email, numero y dirección*/
+    
+    .end{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px;
+        font-size: 20px;
+    }
+    
+    /*copyrigth*/
+    
+    .cop{
+        text-align: center;
+    }

@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Estilos/estilo_cursos.css">
+</head>
+<body class="body">
+    <header>
+        <div>
+          <img class="img" src="./Imagenes/Tarjeta 1.png" alt="">
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Compu Space</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Mas
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./cursos.html">Cursos Disponibles</a></li>
+                    <li><a class="dropdown-item" href="./Inscribete.html">Inscribete</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="./acerca_de_nosotros.html">Acerca de nosotros</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Sin Limites</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="¿Que Buscas?" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+  <!--.......................Primer Section........................-->
+    <section>
+      <article class="fondo_imagen">
+          <h2 class="estilo">Cursos</h2>
+          <p class="texto">Descubre nuestros cursos especializados en Microsoft PowerPoint, Word y Excel. Domina estas herramientas imprescindibles de productividad y lleva tus habilidades al siguiente nivel. Aprende de la mano de expertos y potencia tu carrera profesional. ¡Inscríbete ahora y desata tu máximo potencial con nuestros cursos de PowerPoint, Word y Excel!</p>
+      </article>
+  </section>
+
+    <!--..........................Breadcrumb.......................-->
+    <section class="pag">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+          <li class="breadcrumb-item"><a href="./servicios.html">Servicios</a></li>
+          <li class="breadcrumb-item active" aria-current="Mas">Mas</li>
+          <li class="breadcrumb-item active" aria-current="Cursos">Cursos</li>
+        </ol>
+      </nav>
+    </section>
+
+    <main>
+
+      <!--.........................................WORD................................................-->
+      <section class="section_word">
+        <article class="articule_word">
+          <div class="card" style="width: 18rem;">
+            <img class="img_word" src="./Imagenes/word.png" class="card-img-top" alt="imagen">
+            <div class="card-body">
+              <h5 class="card-title"> Curso de Microsoft Word - Nivel Principiante </h5>
+              <p class="card-text">"Descubre el poder de Microsoft Word desde cero. Aprende las bases y crea documentos impresionantes con confianza y facilidad."</p>           
+              
+              <section>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Inscribete
+                </button>
+        
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">¡Excelente!, Te queda un solo paso!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Agradecemos sinceramente tu decisión de unirte a nuestra comunidad de Microsoft Word. ¡Estamos encantados de tenerte aquí! el unico paso que te falta es "Registrarte" y disfrutar de nuestros cursos!
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button onclick="window.location.href='inscribete.html'" type="button" class="btn btn-primary">Registrarme</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+      
+            </div>
+          </div>
+        </article>
+
+        <article class="articule_word">
+          <div class="card" style="width: 18rem;">
+            <img class="img_word" src="./Imagenes/word.png" class="card-img-top" alt="imagen">
+            <div class="card-body">
+              <h5 class="card-title"> Curso de Microsoft Word - Nivel Intermedio </h5>
+              <p class="card-text">"Perfecciona tus habilidades en Microsoft Word. Domina herramientas avanzadas, formatos profesionales y agiliza tu flujo de trabajo."</p>
+              <section>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Inscribete
+                </button>
+        
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">¡Excelente!, Te queda un solo paso!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Agradecemos sinceramente tu decisión de unirte a nuestra comunidad de Microsoft Word. ¡Estamos encantados de tenerte aquí! el unico paso que te falta es "Registrarte" y disfrutar de nuestros cursos!
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button onclick="window.location.href='inscribete.html'" type="button" class="btn btn-primary">Registrarme</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="articule_word">
+          <div class="card" style="width: 18rem;">
+            <img class="img_word" src="./Imagenes/word.png" class="card-img-top" alt="imagen">
+            <div class="card-body">
+              <h5 class="card-title"> Curso de Microsoft Word - Nivel Avanzado </h5>
+              <p class="card-text">"Domina Microsoft Word al máximo. Expande tus habilidades, automatiza tareas y crea documentos impactantes con maestría."</p>
+              
+              <section>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Inscribete
+                </button>
+        
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">¡Excelente!, Te queda un solo paso!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Agradecemos sinceramente tu decisión de unirte a nuestra comunidad de Microsoft Word. ¡Estamos encantados de tenerte aquí! el unico paso que te falta es "Registrarte" y disfrutar de nuestros cursos!
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button onclick="window.location.href='inscribete.html'" type="button" class="btn btn-primary">Registrarme</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!--.................................CARD - WORD...........................................-->
+
+      <section class="tarjetaword">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./Imagenes/Indu estudiando.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Estamos para ayudarte</h5>
+                <p class="card-text">Esperamos tu ingreso a nuestros Cursos de Word! solo pulsa en "Empezar" y estaras Inscripto en uno de ellos!</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!--....................................ACORDEON - WORD......................................--> 
+      
+       <section class="scroll">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                1° Habilidades en Microsoft Word 
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Formato de documentos</strong> El tema de formato de documentos en Microsoft Word es fundamental para crear documentos atractivos y bien estructurados. Con este conjunto de herramientas y opciones, puedes mejorar la apariencia visual de tus documentos y facilitar la lectura y comprensión de su contenido. Puedes aplicar estilos y temas predefinidos para darle un aspecto coherente a tu documento, ajustar márgenes y sangrías para lograr una presentación ordenada, y cambiar el tipo de fuente, tamaño y color del texto para enfatizar puntos importantes o crear jerarquías visuales. Además, Word te permite insertar tablas, imágenes y gráficos para enriquecer tus documentos con elementos visuales y datos organizados. El formato de documentos es una habilidad clave que te permitirá crear documentos profesionales y atractivos.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2° Habilidades en Microsoft Word 
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Funciones avanzadas de edición</strong> El uso de funciones avanzadas de edición en Word puede ayudarte a optimizar tu flujo de trabajo y ahorrar tiempo al realizar tareas repetitivas. Con estas herramientas, puedes realizar búsquedas y reemplazos de palabras o frases en todo el documento o partes específicas de él. También puedes aplicar estilos y estilos rápidos para mantener la coherencia y el aspecto profesional de tus documentos, incluso cuando estés trabajando en documentos largos o colaborando con otros usuarios. Otras características incluyen la posibilidad de agregar marcas de agua para resaltar la confidencialidad o el estado del documento, insertar encabezados y pies de página para agregar información adicional, crear índices automáticos para facilitar la navegación y generar tablas de contenido basadas en los títulos y estilos utilizados en el documento. Estas funciones avanzadas de edición te permiten personalizar y organizar tus documentos de manera eficiente.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3° Habilidades en Microsoft Word 
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Colaboración y revisiones</strong> En un entorno de trabajo colaborativo, la capacidad de colaborar y revisar documentos de manera efectiva es esencial. Word ofrece herramientas que facilitan esta tarea. Puedes compartir tus documentos con otros usuarios, ya sea a través de almacenamiento en la nube o enviando el archivo directamente. Puedes darles permisos para editar el documento en tiempo real o solo para realizar comentarios y sugerencias. Además, puedes realizar un seguimiento de los cambios realizados en el documento y aceptar o rechazar modificaciones propuestas por otros usuarios. También puedes agregar y responder a comentarios en áreas específicas del documento, lo que facilita la comunicación y la colaboración. Estas funciones de colaboración y revisión permiten un flujo de trabajo más fluido y una comunicación efectiva entre los miembros del equipo.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!--.........................................................EXCEL.....................................................................-->
+      <section class="section_excel">
+        <article class="articule_excel">
+          <div class="card" style="width: 18rem;">
+            <img class="img_excel" src="./Imagenes/excel.png" class="card-img-top" alt="imagen">
+            <div class="card-body">
+              <h5 class="card-title"> Curso de Microsoft Excel - Nivel Principiante </h5>
+              <p class="card-text">"Descubre Excel y domina las bases de las hojas de cálculo. Aprende a organizar datos, realizar cálculos y crear gráficos de manera efectiva."</p>
+              
+              <section>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Inscribete
+                </button>
+        
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">¡Excelente!, Te queda un solo paso!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Agradecemos sinceramente tu decisión de unirte a nuestra comunidad de Microsoft Excel. ¡Estamos encantados de tenerte aquí! el unico paso que te falta es "Registrarte" y disfrutar de nuestros cursos!
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button onclick="window.location.href='inscribete.html'" type="button" class="btn btn-primary">Registrarme</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="articule_excel">
+          <div class="card" style="width: 18rem;">
+            <img class="img_excel" src="./Imagenes/excel.png" class="card-img-top" alt="imagen">
+            <div class="card-body">
+              <h5 class="card-title"> Curso de Microsoft Excel - Nivel Intermedio </h5>
+              <p class="card-text">"Potencia tus habilidades en Excel. Aprende fórmulas avanzadas, tablas dinámicas y técnicas de análisis para optimizar tus datos."</p>
+              
+              <section>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Inscribete
+                </button>
+        
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">¡Excelente!, Te queda un solo paso!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Agradecemos sinceramente tu decisión de unirte a nuestra comunidad de Microsoft Excel. ¡Estamos encantados de tenerte aquí! el unico paso que te falta es "Registrarte" y disfrutar de nuestros cursos!
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button onclick="window.location.href='inscribete.html'" type="button" class="btn btn-primary">Registrarme</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="articule_excel">
+          <div class="card" style="width: 18rem;">
+            <img class="img_excel" src="./Imagenes/excel.png" class="card-img-top" alt="imagen">
+            <div class="card-body">
+              <h5 class="card-title"> Curso de Microsoft Excel - Nivel Avanzado </h5>
+              <p class="card-text">"Domina el análisis de datos con Excel. Explora herramientas de automatización para tomar decisiones estratégicas."</p>
+              
+              <section>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Inscribete
+                </button>
+        
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">¡Excelente!, Te queda un solo paso!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Agradecemos sinceramente tu decisión de unirte a nuestra comunidad de Microsoft Excel. ¡Estamos encantados de tenerte aquí! el unico paso que te falta es "Registrarte" y disfrutar de nuestros cursos!
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button onclick="window.location.href='inscribete.html'" type="button" class="btn btn-primary">Registrarme</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!--CARD - EXCEL-->
+
+      <section class="tarjetaexcel">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./Imagenes/comp icon.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">No te Arrepentirás</h5>
+                <p class="card-text">Esperamos tu ingreso a nuestros Cursos de Excel! solo pulsa en "Empezar" y estaras Inscripto en uno de ellos!.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!--ACORDEON - EXCEL--> 
+      
+       <section class="scroll">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                1° Habilidades en Microsoft Excel 
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Formulas y funciones </strong> El uso de fórmulas y funciones es una parte fundamental de Excel. Con ellas, puedes realizar cálculos complejos y análisis de datos de manera eficiente. Excel ofrece una amplia gama de fórmulas predefinidas, como SUMA, PROMEDIO, MAX, MIN, entre otras, que te permiten realizar operaciones matemáticas, estadísticas y financieras en tus datos. Además, las funciones lógicas como SI y BUSCARV te ayudan a tomar decisiones basadas en condiciones específicas. Aprender y dominar estas fórmulas y funciones te permitirá manipular y analizar datos de manera efectiva, ahorrando tiempo y mejorando la precisión en tus tareas.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2° Habilidades en Microsoft Excel 
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Tablas dinámicas y gráficos </strong> Las tablas dinámicas son una herramienta poderosa para analizar grandes conjuntos de datos en Excel. Con ellas, puedes resumir, filtrar y mostrar datos de manera interactiva, lo que te permite obtener información valiosa rápidamente. Puedes agrupar datos, aplicar filtros, realizar cálculos personalizados y crear informes dinámicos basados en los datos de origen. Además, puedes utilizar gráficos vinculados a las tablas dinámicas para visualizar tus resultados de manera clara y comprensible. Dominar las tablas dinámicas y los gráficos en Excel te brindará la capacidad de analizar y presentar tus datos de manera efectiva, facilitando la toma de decisiones informadas.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3° Habilidades en Microsoft Excel 
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Análisis de datos y herramientas de visualización</strong> Excel ofrece una variedad de herramientas y funciones para el análisis de datos. Puedes utilizar características como Validación de datos para asegurar la calidad y coherencia de tus datos de entrada. También puedes utilizar Escenarios y Análisis de hipótesis para explorar diferentes situaciones y evaluar el impacto en los resultados. Además, la herramienta Solver te permite encontrar soluciones óptimas para problemas de optimización. Para visualizar tus datos, Excel ofrece una amplia gama de gráficos y herramientas de visualización, como gráficos de dispersión, gráficos de burbujas y mapas en 3D. Estas herramientas te ayudan a presentar tus datos de manera impactante y comprensible, permitiéndote comunicar tus hallazgos de manera efectiva.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--..............................................................POWER POINT.....................................................................-->
+      <section class="section_power">
+        <article class="articule_power">
+          <div class="card" style="width: 18rem;">
+            <img class="img_power" src="./Imagenes/Power point.png" class="card-img-top" alt="imagen">
+            <div class="card-body">
+              <h5 class="card-title"> Curso de Microsoft Power Point - Nivel Principiante </h5>
+              <p class="card-text">"Descubre el impacto de Power Point. Aprende a crear presentaciones visualmente atractivas y comunicativas con facilidad."</p>
+              
+              <section>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Inscribete
+                </button>
+        
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">¡Excelente!, Te queda un solo paso!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Agradecemos sinceramente tu decisión de unirte a nuestra comunidad de Microsoft Power Point. ¡Estamos encantados de tenerte aquí! el unico paso que te falta es "Registrarte" y disfrutar de nuestros cursos!
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button onclick="window.location.href='inscribete.html'" type="button" class="btn btn-primary">Registrarme</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="articule_power">
+          <div class="card" style="width: 18rem;">
+            <img class="img_power" src="./Imagenes/Power point.png" class="card-img-top" alt="imagen">
+            <div class="card-body">
+              <h5 class="card-title"> Curso de Microsoft Power Point - Nivel Intermedio </h5>
+              <p class="card-text">"Potencia tus presentaciones con Power Point. Dominarás el diseño de diapositivas, animaciones para cautivar a tu audiencia."</p>
+              
+              <section>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Inscribete
+                </button>
+        
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">¡Excelente!, Te queda un solo paso!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Agradecemos sinceramente tu decisión de unirte a nuestra comunidad de Microsoft Power Point. ¡Estamos encantados de tenerte aquí! el unico paso que te falta es "Registrarte" y disfrutar de nuestros cursos!
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button onclick="window.location.href='inscribete.html'" type="button" class="btn btn-primary">Registrarme</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="articule_power">
+          <div class="card" style="width: 18rem;">
+            <img class="img_power" src="./Imagenes/Power point.png" class="card-img-top" alt="imagen">
+            <div class="card-body">
+              <h5 class="card-title"> Curso de Microsoft Power Point - Nivel Avanzado </h5>
+              <p class="card-text">"Eleva tus presentaciones al siguiente nivel. Con herramientas avanzadas, colaboración y creación de presentaciones impactantes."</p>
+              
+              <section>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Inscribete
+                </button>
+        
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">¡Excelente!, Te queda un solo paso!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Agradecemos sinceramente tu decisión de unirte a nuestra comunidad de Microsoft Power Point. ¡Estamos encantados de tenerte aquí! el unico paso que te falta es "Registrarte" y disfrutar de nuestros cursos!
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button onclick="window.location.href='inscribete.html'" type="button" class="btn btn-primary">Registrarme</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!--CARD - POWER POINT-->
+
+      <section CLASS="tarjetapower">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./Imagenes/icon_.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Anímate</h5>
+                <p class="card-text">Esperamos tu ingreso a nuestros Cursos de Power Point! solo pulsa en "Empezar" y estaras Inscripto en uno de ellos!</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+       <!--ACORDEON - POWER POINT--> 
+      
+       <section class="scroll">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                1° Habilidades en Microsoft Power Point
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong> Diseño de diapositivas </strong> El diseño de diapositivas es una parte crucial de una presentación impactante en PowerPoint. Aprenderás a elegir el diseño adecuado para transmitir tu mensaje de manera efectiva, considerando aspectos como la estructura y el flujo de la información. Además, aprenderás a combinar colores y fuentes de manera coherente para crear una identidad visual sólida. También descubrirás cómo organizar y formatear tus diapositivas de manera eficiente, utilizando títulos, viñetas y esquemas para mejorar la legibilidad y la comprensión del contenido. La atención al diseño de las diapositivas puede hacer que tu presentación sea más profesional y atractiva visualmente.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2° Habilidades en Microsoft Power Point
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong> Animaciones y transiciones </strong> Las animaciones y transiciones son elementos clave para hacer que tu presentación en PowerPoint sea dinámica y cautivadora. Aprenderás a aplicar efectos de entrada, énfasis y salida a los elementos de tus diapositivas para captar y mantener la atención del público. Puedes agregar animaciones a texto, imágenes, gráficos y otros objetos para resaltar puntos clave o revelar información de manera gradual. Además, utilizarás transiciones suaves y fluidas entre diapositivas para crear una experiencia visualmente agradable y una transición natural entre los diferentes temas o secciones de tu presentación. Las animaciones y transiciones bien utilizadas pueden mejorar la fluidez y el impacto de tu presentación, manteniendo al público interesado y comprometido.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3° Habilidades en Microsoft Power Point
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong> Presentaciones efectivas </strong> Crear una presentación efectiva en PowerPoint va más allá del diseño visual y las animaciones. Aprenderás técnicas para estructurar y organizar tu presentación de manera coherente, utilizando diapositivas de resumen y transiciones para guiar al público a lo largo de tu discurso. También explorarás consejos sobre el uso adecuado de texto, imágenes y gráficos para comunicar tus ideas de manera clara y convincente. Aprenderás a mantener un equilibrio entre la cantidad de contenido en tus diapositivas y tu capacidad de explicar y ampliar esos puntos durante tu presentación. Una presentación efectiva en PowerPoint te permitirá transmitir tu mensaje de manera impactante y memorable, dejando una impresión duradera en tu audiencia.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--CAROUSEL-->
+      <section class="carousel">
+        <article>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="imgcaro" src="./Imagenes/Mujer con Mac.jpg" class="d-block w-100" alt="Imagen">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="imgcaro" src="./Imagenes/Niño y Mama.jpg" class="d-block w-100" alt="imagen">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="imgcaro" src="./Imagenes/Pelirroja.jpg" class="d-block w-100" alt="imagen">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+      </section>
+      <!--pie de pagina-->
+    <footer>
+      <!--1ra Section de pie de pagina-->
+      <section>
+          <!--1°-->
+          <article>
+            <nav>
+              <div class="imgredes">
+                <a href=" https://wa.me/5493876520581">
+                  <img class="margin" src="./Imagenes/whatsapp.png" alt="whatsapp" width="60px">
+                </a>
+                
+                <a href="https://www.facebook.com/diegomaximiliano.perezhurtado">
+                  <img class="margin" src="./Imagenes/facebook.png" alt="facebook" width="60px"> 
+                </a>
+                
+                <a href="https://www.instagram.com/maxymus_98/"> 
+                  <img class="margin" src="./Imagenes/instagram.png" alt="instagram" width="60px"> 
+                </a>
+                
+                <a href="https://twitter.com/Maxymus98"> 
+                  <img class="margin" src="./Imagenes/Twitter.png" alt="twitter" width="60px"> 
+                </a>
+
+                <a href="https://www.linkedin.com/"> 
+                  <img class="margin" src="./Imagenes/linkedin.png" alt="linkedin" width="60px"> 
+                </a>
+                
+                <a href="https://www.youtube.com/channel/UCqrBghXQiWGwjuRrAVQfpZw"> 
+                  <img class="margin" src="./Imagenes/youtube.png" alt="youtube" width="60px"> 
+                </a>
+              </div>
+            </nav>
+          </article>
+
+          <!--2°-->
+          <article class="h2p">
+            <h2> Nuestra página esta basada en Inteligencia Artificial, Open AI Microsoft </h2>
+            <p>Trabajamos con clientes de todo el mundo, contactanos no te vas a arrepentir</p>
+          </article>
+          
+          <!--3°-->
+          <article class="end">
+            <div> perezhurtadodie@gmail.com </div>
+            <div> +54 9 3876520581 </div>
+            <div> 
+                  Plymouth Real State 
+              <p> 25 Sandwich Street, Plymouth, 0203654 </p> 
+            </div>
+          </article>
+          
+          <HR>
+
+          <!--4°-->
+          <article class="cop">
+            <p>© 2023 Maximiliano Perez. Todos los derechos Reservados | Creatividad sin Limites</p>
+          </article>
+
+        </section>
+</footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

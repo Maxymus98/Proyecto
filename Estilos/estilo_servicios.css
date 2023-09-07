@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*body*/
+body{
+    background-color: lightgray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header*/
+
+.img{
+    width: 10%;
+}
+
+
+/* 1ERos 2dos SECTIONs*/
+
+.fondo_imagen{
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0.425)), url(../Imagenes/SErvi.jpg);
+    padding: 1%;
+     margin-top: 1%;
+     margin-bottom: 2%;
+     color:white;
+ }
+
+ .estilo{
+    text-align: center;
+    font-size: 36px;
+    
+}
+.textoim{
+    font-size: 18px;
+    text-align: center;
+}
+.texto{
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+} 
+
+.imagen1{
+    width: 40%;
+    border-style: dashed;
+    padding: 1%;
+    margin: 2%;
+}
+
+.seccion1{
+    background-color: lightsteelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 2%;
+}
+
+/*breadcump*/
+
+.pag{
+    margin-left: 4%;
+    margin-top: 2%;
+
+ }
+
+ /* 2DO SECTION*/
+
+.seccion2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    margin: 1%;
+    margin-right: -4%;
+}
+
+.sec2{
+    width: 380px;
+    padding: 1.1%;
+    text-align: center;
+    border-radius: 15%;
+    background-color: lightsteelblue;
+}
+.boton1{
+    display: inline-block;
+    padding: 1%;
+    margin-bottom: 2%;
+    margin-top: 25%;
+    margin-left: -25%;
+    margin-right: 10%;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.boton1:hover{
+    background-color: #45a049;
+}
+
+/* 3ER SECTION */
+
+.seccion3{
+    background-color: lightsteelblue;
+    padding: 0.5%;
+}
+
+.h2com{
+    text-align: center;
+}
+  
+.pben{
+    text-align: center;
+}
+
+.divfoto{
+    display: flex;
+    justify-content: space-between;
+    border-style: dashed;
+}
+.divcom{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.p1{
+     text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+/*PIE DE PÁGINA*/
+
+    /*iconos de redes sociales*/
+footer{
+    display: flexbox;
+    justify-content: space-between;
+}
+
+.redes{ /*ul*/
+    background-color: lightgray;
+    margin-left: 1150PX;
+    margin-top:-1%;
+    justify-content: space-between;
+}
+
+ul li{
+    margin: 5px;
+}
+
+.imgredes{
+    text-align: center;
+    padding: 0%;
+    margin-right: -15px;
+    margin-top: 1%;
+}
+
+.margin{
+    margin: 10px;
+}
+
+    /*Basada en inteligencia artificial*/
+
+
+.h2p{
+    text-align: center;
+    margin-right: -1%;
+    font-size: 20px;
+}
+
+    /*Email, numero y dirección*/
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    font-size: 20px;
+}
+
+/*copyrigth*/
+
+.cop{
+    text-align: center;
+}

@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*..........................BODY Y HEADER................................*/
+.body{
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img{
+    width: 10%;
+}
+
+
+/*primer section*/
+
+.fondo_imagen{
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0.425)), url(../Imagenes/CUrsos.jpg);
+     height: 20%;
+    padding: 1%;
+     margin-top: 1%;
+     margin-bottom: 2%;
+     color:white;
+ }
+ .estilo{
+     text-align: center;
+     font-size: 36px;
+ }
+ .texto{
+     font-size: 18px;
+     text-align: center;
+ } 
+ 
+ /*breadcrumb*/
+ 
+ .pag{
+    margin-left: 4%;
+ }
+ 
+ /* 2DO SECTION Y (también texto y Estilo)*/
+ 
+ .cards{
+     display: flex;
+     justify-content: space-between;
+     margin: 3%;
+ }
+ .card{
+     width: 380px;
+     padding: 120px 20px;
+     text-align: center;
+     border-color:aquamarine;
+ }
+ 
+ .imagen{
+     width: 100%;
+     border-style:groove;
+ }
+
+/*SECTION_WORD*/
+
+.section_word{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    padding: -3%; 
+    margin-left: 29.4%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.articule_word{
+    margin-right: 350px;
+    margin-left: -350px; 
+}
+
+.img_word{
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.scroll{
+    padding: 2%;
+    margin-left: 1.7%;
+}
+
+.tarjetaword{
+    padding: 4.5%;
+    margin-left: 66%;
+    margin-right: 1%;
+    margin-top: -46.5%;
+}
+/*SECTION_EXCEL*/
+
+.section_excel{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    padding: -3%; 
+    margin-left: 29.4%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.articule_excel{
+    margin-right: 350px;
+    margin-left: -350px; 
+}
+
+.img_excel{
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.scroll{
+    padding: 2%;
+    margin-left: 1.7%;
+}
+
+.tarjetaexcel{
+    padding: 4.5%;
+    margin-left: 66%;
+    margin-right: 1%;
+    margin-top: -46.5%;
+}
+
+/*SECTION_POWER POINT*/
+
+.section_power{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    padding: -3%; 
+    margin-left: 29.4%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.articule_power{
+    margin-right: 350px;
+    margin-left: -350px; 
+}
+
+.img_power{
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.scroll{
+    padding: 2%;
+    margin-left: 1.7%;
+}
+
+.tarjetapower{
+    padding: 4.5%;
+    margin-left: 66%;
+    margin-right: 1%;
+    margin-top: -46.5%;
+}
+
+/*CAROUSEL*/
+
+.carousel{
+    margin-top: 5%;
+}
+
+.imgcaro{
+    height: 1120px;
+    width: 1920px;
+}
+
+/*PIE DE PÁGINA*/
+
+    /*iconos de redes sociales*/
+    footer{
+        display: flexbox;
+        justify-content: space-between;
+    }
+    
+    .redes{ /*ul*/
+        background-color: lightgray;
+        margin-left: 1150PX;
+        margin-top:-1%;
+        justify-content: space-between;
+    }
+    
+    ul li{
+        margin: 5px;
+    }
+    
+    .imgredes{
+        text-align: center;
+        padding: 0%;
+        margin-right: -15px;
+        margin-top: 1%;
+    }
+    
+    .margin{
+        margin: 10px;
+    }
+    
+        /*Basada en inteligencia artificial*/
+    
+    
+    .h2p{
+        text-align: center;
+        margin-right: -1%;
+        font-size: 20px;
+    }
+    
+        /*Email, numero y dirección*/
+    
+    .end{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px;
+        font-size: 20px;
+    }
+    
+    /*copyrigth*/
+    
+    .cop{
+        text-align: center;
+    }
+    
