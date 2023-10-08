@@ -1,67 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscripción</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./Estilos/estilo_inscribete.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscripción</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./Estilos/estilo_inscribete.css">
 </head>
+
 <body class="body">
-    <header>
-        <div>
-            <img class="img" src="./Imagenes/Tarjeta 1.png" alt="">
-          </div>
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html">Compu Space</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./servicios.html">Servicios</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Mas
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="./cursos.html">Cursos Disponibles</a></li>
-                      <li><a class="dropdown-item" href="./Inscribete.html">Inscribete</a></li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item" href="./acerca_de_nosotros.html">Acerca de nosotros</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Sin Limites</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="¿Que Buscas?" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </header>
-    
-    <main>
-  
+  <header>
+    <div>
+      <img class="img" src="./Imagenes/Tarjeta 1.png" alt="">
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Compu Space</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Mas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./cursos.html">Cursos Disponibles</a></li>
+                <li><a class="dropdown-item" href="./Inscribete.html">Inscribete</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./acerca_de_nosotros.html">Acerca de nosotros</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Sin Limites</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="¿Que Buscas?" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
     <!--.......................Primer Section........................-->
-     <section>
+    <section>
       <article class="fondo_imagen">
-          <h2 class="estilo">Inscripción</h2>
-          <p class="texto"></p>
+        <h2 class="estilo">Inscripción</h2>
+        <p class="texto"></p>
       </article>
-  </section>
+    </section>
     <!--..........................Breadcrumb.......................-->
     <section class="pag">
       <nav aria-label="breadcrumb">
@@ -73,98 +76,98 @@
         </ol>
       </nav>
     </section>
-    
+
     <h2 class="datos">Ingrese sus datos</h2>
-    
+
     <section class="form">
       <form action="https://formspree.io/f/mleyreyo" method="post" target="_blank">
-        <!--Label Nombre-->    
-    <label> Nombre Completo:
-        <input type="text" name="Nombre" placeholder="Escriba su nombre" required>
-        
-    </label> <br><br>
-        <!--Label Domicilio-->  
-    <label> Domicilio:
-        <input type="text" name="Domicilio" placeholder="Escriba su Domicilio">
-    </label> <br> <br>
-        <!--Label Telefono--> 
-    <label> Telefono:
-        <input type="text" name="Telefono" placeholder="Escriba su telefono">
-    </label> <br> <br>
+        <!--Label Nombre-->
+        <label> Nombre Completo:
+          <input type="text" name="Nombre" placeholder="Escriba su nombre" required>
 
-        <!--Label Lista desplegable-->         
-    <label> Cursos:
-    <select name="Cursos">
-        <option value="Word">Word</option>
-        <option value="Excel">Excel</option>
-        <option value="Power Point">Power Point</option>
-        <option value="Introduccion Office (Gratis)">Introduccion Office (Gratis)</option>
-    </select>
-    </label> <br> <br>
+        </label> <br><br>
+        <!--Label Domicilio-->
+        <label> Domicilio:
+          <input type="text" name="Domicilio" placeholder="Escriba su Domicilio">
+        </label> <br> <br>
+        <!--Label Telefono-->
+        <label> Telefono:
+          <input type="text" name="Telefono" placeholder="Escriba su telefono">
+        </label> <br> <br>
 
-    <label> Nivel:
-      <select name="Nivel">
-          <option value="Principiante">Principiante</option>
-          <option value="Intermedio">Intermedio</option>
-          <option value="Avanzado">Avanzado</option>
-      </select>
-      </label> <br> <br>
+        <!--Label Lista desplegable-->
+        <label> Cursos:
+          <select name="Cursos">
+            <option value="Word">Word</option>
+            <option value="Excel">Excel</option>
+            <option value="Power Point">Power Point</option>
+            <option value="Introduccion Office (Gratis)">Introduccion Office (Gratis)</option>
+          </select>
+        </label> <br> <br>
 
-        <!--Label eMail--> 
-    <label> Email
-        <input type="email" name="email">
-    </label>  <br> <br>
+        <label> Nivel:
+          <select name="Nivel">
+            <option value="Principiante">Principiante</option>
+            <option value="Intermedio">Intermedio</option>
+            <option value="Avanzado">Avanzado</option>
+          </select>
+        </label> <br> <br>
 
-        <!--Label Contraseña--> 
-    <label> Contraseña
-        <input type="password" name="contraseña" placeholder="Ecriba su contraseña">
-    </label>  <br> <br>
+        <!--Label eMail-->
+        <label> Email
+          <input type="email" name="email">
+        </label> <br> <br>
 
-        <!--Label palomita--> 
-    <label> Quiero una Copia de mi inscripción:
-        <input type="checkbox" name="¿Copia de Incripción?" checked> 
-    </label>  <br> <br>
+        <!--Label Contraseña-->
+        <label> Contraseña
+          <input type="password" name="contraseña" placeholder="Ecriba su contraseña">
+        </label> <br> <br>
 
-        <!--Label calendario--> 
-    <label> Cuando quieres Empezar?
-        <input type ="date" name="¿Cuando empezar?">
-    </label> <br> <br>
+        <!--Label palomita-->
+        <label> Quiero una Copia de mi inscripción:
+          <input type="checkbox" name="¿Copia de Incripción?" checked>
+        </label> <br> <br>
 
-    <p> Sexo <br>
+        <!--Label calendario-->
+        <label> Cuando quieres Empezar?
+          <input type="date" name="¿Cuando empezar?">
+        </label> <br> <br>
 
-        <label> Mujer
+        <p> Sexo <br>
+
+          <label> Mujer
             <input type="radio" name="value" value="M">
-        </label>
-        
-        <label> Varón
+          </label>
+
+          <label> Varón
             <input type="radio" name="value" value="V">
-        </label> 
-        
-        <label> Otro
-          <input type="radio" name="value" value="O">
-      </label> 
-    
-    </p>
-        
-        <!--Label Comentarios--> 
-    <label> ¿Que esperas de Nosotros?:
-        <textarea name="¿Que esperas de Nosotros?" placeholder="Escribe aquí" id="" cols="30" rows="3"></textarea>
-    </label> <br> <br>
-              
-        
-        <!--Boton de Enviar--> 
-    
-    <label>
-        <input type="submit" name="">
-    </label> <br> <br>
-</form>
+          </label>
+
+          <label> Otro
+            <input type="radio" name="value" value="O">
+          </label>
+
+        </p>
+
+        <!--Label Comentarios-->
+        <label> ¿Que esperas de Nosotros?:
+          <textarea name="¿Que esperas de Nosotros?" placeholder="Escribe aquí" id="" cols="30" rows="3"></textarea>
+        </label> <br> <br>
+
+
+        <!--Boton de Enviar-->
+
+        <label>
+          <input type="submit" name="">
+        </label> <br> <br>
+      </form>
     </section>
-    
-  
-  <!--......................pie de pagina........................-->
-  <footer>
-    <!--1ra Section de pie de pagina-->
-    <section>
+
+
+    <!--......................pie de pagina........................-->
+    <footer>
+      <!--1ra Section de pie de pagina-->
+      <section>
         <!--1°-->
         <article>
           <nav>
@@ -172,25 +175,25 @@
               <a href=" https://wa.me/5493876520581">
                 <img class="margin" src="./Imagenes/whatsapp.png" alt="whatsapp" width="60px">
               </a>
-              
+
               <a href="https://www.facebook.com/diegomaximiliano.perezhurtado">
-                <img class="margin" src="./Imagenes/facebook.png" alt="facebook" width="60px"> 
-              </a>
-              
-              <a href="https://www.instagram.com/maxymus_98/"> 
-                <img class="margin" src="./Imagenes/instagram.png" alt="instagram" width="60px"> 
-              </a>
-              
-              <a href="https://twitter.com/Maxymus98"> 
-                <img class="margin" src="./Imagenes/Twitter.png" alt="twitter" width="60px"> 
+                <img class="margin" src="./Imagenes/facebook.png" alt="facebook" width="60px">
               </a>
 
-              <a href="https://www.linkedin.com/"> 
-                <img class="margin" src="./Imagenes/linkedin.png" alt="linkedin" width="60px"> 
+              <a href="https://www.instagram.com/maxymus_98/">
+                <img class="margin" src="./Imagenes/instagram.png" alt="instagram" width="60px">
               </a>
-              
-              <a href="https://www.youtube.com/channel/UCqrBghXQiWGwjuRrAVQfpZw"> 
-                <img class="margin" src="./Imagenes/youtube.png" alt="youtube" width="60px"> 
+
+              <a href="https://twitter.com/Maxymus98">
+                <img class="margin" src="./Imagenes/Twitter.png" alt="twitter" width="60px">
+              </a>
+
+              <a href="https://www.linkedin.com/">
+                <img class="margin" src="./Imagenes/linkedin.png" alt="linkedin" width="60px">
+              </a>
+
+              <a href="https://www.youtube.com/channel/UCqrBghXQiWGwjuRrAVQfpZw">
+                <img class="margin" src="./Imagenes/youtube.png" alt="youtube" width="60px">
               </a>
             </div>
           </nav>
@@ -201,17 +204,17 @@
           <h2> Nuestra página esta basada en Inteligencia Artificial, Open AI Microsoft </h2>
           <p>Trabajamos con clientes de todo el mundo, contactanos no te vas a arrepentir</p>
         </article>
-        
+
         <!--3°-->
         <article class="end">
           <div> perezhurtadodie@gmail.com </div>
           <div> +54 9 3876520581 </div>
-          <div> 
-                Plymouth Real State 
-            <p> 25 Sandwich Street, Plymouth, 0203654 </p> 
+          <div>
+            Plymouth Real State
+            <p> 25 Sandwich Street, Plymouth, 0203654 </p>
           </div>
         </article>
-        
+
         <HR>
 
         <!--4°-->
@@ -220,8 +223,9 @@
         </article>
 
       </section>
-</footer>
+    </footer>
   </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
